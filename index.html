@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simplesite</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -16,43 +17,147 @@
             </span>
         </div>
         <nav>
-            <ul>
+            <ul style="display: flex; flex: 1">
                 <li>
-                    <a hrev="home">homepage</a>
+                    <a href="home  ">homepage</a>
                 </li>
                 <li>
-                    <a hrev="navigation">navigation</a>
+                    <a href="navigation  ">navigation</a>
                 </li>
                 <li>
-                    <a hrev="chat">groupchat</a>
+                    <a href="chat  ">groupchat</a>
                 </li>
                 <li>
-                    <a hrev="contact">contact</a>
+                    <a href="contact">contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <img src="img/horoscope.png" alt="mainimg">
-        </section>
-        <section id="navigation">
-            <img src="img/aquarius.jpg" alt="aquarius">
-            <img src="img/aries.jpg" alt="aries">
-            <img src="img/cancer.jpg" alt="cancer">
-            <img src="img/capricorn.jpg" alt="capricorn">
-            <img src="img/gemini.jpg" alt="gemini">
-            <img src="img/leo.jpg" alt="leo">
-            <img src="img/libra.jpg" alt="libra">
-            <img src="img/pisces.jpg" alt="pisces">
-            <img src="img/sagittarius.jpg" alt="sagittarius">
-            <img src="img/scorpio.jpg" alt="scorpio">
-            <img src="img/taurus.jpg" alt="taurus">
-            <img src="img/virgo.jpg" alt="virgo">
+        <section class="signs-grid text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="span-4 offset-4 span-sm-6 offset-sm-3 span-xs-8 offset-xs-2 col">
+                        <h1 class="header">Choose Your Zodiac Sign</h1>
+                        <div class="header-line"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-aries">
+                            <div class="sign">
+                                <img alt="Aries" class="img-responsive" src="img/aries.jpg">
+                            </div>
+                            <h3>Aries</h3>
+                            <p>Mar 21 - Apr 19</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-taur">
+                            <div class="sign">
+                                <img alt="Taurus" class="img-responsive" src="img/taurus.jpg">
+                            </div>
+                            <h3>Taurus</h3>
+                            <p>Apr 20 - May 20</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-gem">
+                            <div class="sign">
+                                <img alt="Gemini" class="img-responsive" src="img/gemini.jpg">
+                            </div>
+                            <h3>Gemini</h3>
+                            <p>May 21 - Jun 20</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-canc">
+                            <div class="sign">
+                                <img alt="Cancer" class="img-responsive" src="img/cancer.jpg">
+                            </div>
+                            <h3>Cancer</h3>
+                            <p>Jun 21 - Jul 22</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-leo">
+                            <div class="sign">
+                                <img alt="Leo" class="img-responsive" src="img/leo.jpg">
+                            </div>
+                            <h3>Leo</h3>
+                            <p>Jul 23 - Aug 22</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-virgo">
+                            <div class="sign">
+                                <img alt="Virgo" class="img-responsive" src="img/virgo.jpg">
+                            </div>
+                            <h3>Virgo</h3>
+                            <p>Aug 23 - Sep 22</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-lib">
+                            <div class="sign">
+                                <img alt="Libra" class="img-responsive" src="img/libra.jpg">
+                            </div>
+                            <h3>Libra</h3>
+                            <p>Sep 23 - Oct 22</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-scpo">
+                            <div class="sign">
+                                <img alt="Scorpio" class="img-responsive" src="img/scorpio.jpg">
+                            </div>
+                            <h3>Scorpio</h3>
+                            <p>Oct 23 - Nov 21</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-sag">
+                            <div class="sign">
+                                <img alt="Sagittarius" class="img-responsive" src="img/sagittarius.jpg">
+                            </div>
+                            <h3>Sagittarius</h3>
+                            <p>Nov 22 - Dec 21</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-cap">
+                            <div class="sign">
+                                <img alt="Capricorn" class="img-responsive" src="img/capricorn.jpg">
+                            </div>
+                            <h3>Capricorn</h3>
+                            <p>Dec 22 - Jan 19</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-aqua">
+                            <div class="sign">
+                                <img alt="Aquarius" class="img-responsive" src="img/aquarius.jpg">
+                            </div>
+                            <h3>Aquarius</h3>
+                            <p>Jan 20 - Feb 18</p>
+                        </a>
+                    </div>
+                    <div class="span-2 span-sm-3 span-xs-4 col">
+                        <a href="" id="src-hp-pisc">
+                            <div class="sign">
+                                <img alt="Pisces" class="img-responsive" src="img/pisces.jpg">
+                            </div>
+                            <h3>Pisces</h3>
+                            <p>Feb 19 - Mar 20</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="chat">
             <h2>Чат для обраних</h2>
-            <form action>
+            <form>
                 <input type="text" placeholder="Nickname">
                 <br>
                 <input type="email" placeholder="E-mail">
@@ -63,8 +168,8 @@
             </form>
         </section>
         <section id="contact">
-             <h1>Контакти: навіщо? Ми ж тут всі екстрасенси</h1>
-             <h1>Колесо Сансари крутиться - лавеха мутиться</h1>
+            <h1>Контакти: навіщо? Ми ж тут всі екстрасенси</h1>
+            <h1>Колесо Сансари крутиться - лавеха мутиться</h1>
         </section>
     </main>
     <footer>

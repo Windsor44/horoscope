@@ -1,0 +1,32 @@
+header { 
+    background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+header nav { 
+    display: flex;
+}
+header ul {
+    display: flex;
+    flex: 2; 
+}
+header nav ul li {
+    margin-left: 2%;
+}
+body {
+    max-width: 900px;
+    margin: auto;
+}
+footer {
+   background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: baseline;
+    padding-left: 10%;
+}
